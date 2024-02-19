@@ -1,8 +1,16 @@
-import Image from "next/image";
+// import Image from "next/image";
+import Invite from '../components/One/Invite';
+// import Set from '../components/two/set'
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      main page    </main>
+    <main className="">
+   
+      <Invite/>
+      {/* <Set></Set> */}
+      
+       </main>
   );
 }
